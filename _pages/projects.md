@@ -4,7 +4,6 @@ title: projects
 permalink: /projects/
 description: Selected research and technical projects.
 nav: false
-nav_order: 6
 ---
 
 
