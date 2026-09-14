@@ -12,7 +12,7 @@ profile:
     <p>Washington, DC</p>
 
 selected_papers: false
-social: false
+social: true
 
 announcements:
   enabled: false
