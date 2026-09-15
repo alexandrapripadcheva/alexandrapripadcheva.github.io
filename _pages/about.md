@@ -8,8 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false
-  more_info: >
-    <p>Washington, DC</p>
+  more_info: 
 
 selected_papers: false
 social: true
