@@ -9,4 +9,4 @@ nav_order: 5
 
 The best way to reach me is by email at [ap1863@georgetown.edu](mailto:ap1863@georgetown.edu).
 
-You can also connect with me on [LinkedIn](https://www.linkedin.com/in/alexandra-pripadcheva/).
+You can also connect with me on [LinkedIn](https://www.linkedin.com/in/alexandra-pripadcheva/), or view my code work at [Github](https://github.com/alexandrapripadcheva)
