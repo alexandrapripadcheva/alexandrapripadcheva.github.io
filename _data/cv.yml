@@ -1,15 +1,3 @@
-cv:
-  name: Alexandra Pripadcheva
-  label: PhD Candidate in Economics | Georgetown University
-  email: ap1863@georgetown.edu
-  location: Washington, DC
-  pdf_cv_link: "/assets/pdf/cv_pdf.pdf"
-
-  summary: >-
-    My research combines high-performance numerical methods with 
-    large-scale administrative and household microdata (HMDA, PSID, Zillow, Redfin, FHFA) to analyze 
-    housing ladder frictions, mortgage markets disequilibrium, and wealth inequality.
-
   social_networks:
     - network: LinkedIn
       username: alexandra-pripadcheva
@@ -17,8 +5,20 @@ cv:
     - network: GitHub
       username: alexandrapripadcheva
       url: https://github.com/alexandrapripadcheva
+  sections:
+  CV:
+  name: Alexandra Pripadcheva
+  label: PhD Candidate in Economics | Georgetown University
+  email: ap1863@georgetown.edu
+  location: Washington, DC
+  pdf_cv_link: "/assets/pdf/cv_pdf.pdf"
 
-  research_interests:
+  Summary: >-
+    My research combines high-performance numerical methods with 
+    large-scale administrative and household microdata (HMDA, PSID, Zillow, Redfin, FHFA) to analyze 
+    housing ladder frictions, mortgage markets disequilibrium, and wealth inequality.
+  
+  Research Interests:
     - field: Computational Macroeconomics
       keywords: Heterogeneous-agent life-cycle models, housing & mortgage markets, multi-asset portfolio choice
     - field: Structural Econometrics
