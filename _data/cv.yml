@@ -1,42 +1,48 @@
 cv:
   name: Alexandra Pripadcheva
-  label: PhD Candidate in Economics
+  label: PhD Candidate in Economics | Georgetown University
   email: ap1863@georgetown.edu
   location: Washington, DC
-  image: ""
-  summary: Structural econometrics and computational macroeconomics researcher focused on housing, mortgage, and consumer debt markets.
+  pdf_cv_link: "/assets/pdf/cv_pdf.pdf"
+
+  summary: >-
+    My research combines high-performance numerical methods with 
+    large-scale administrative and household microdata (HMDA, PSID, Zillow, Redfin, FHFA) to analyze 
+    housing ladder frictions, mortgage markets disequilibrium, and wealth inequality.
 
   social_networks:
     - network: LinkedIn
       username: alexandra-pripadcheva
+      url: https://www.linkedin.com/in/alexandra-pripadcheva
     - network: GitHub
       username: alexandrapripadcheva
+      url: https://github.com/alexandrapripadcheva
 
-  sections:
-    Education:
-      - institution: Georgetown University
-        location: Washington, DC
-        area: Economics
-        studyType: PhD Candidate
-        start_date: 2020
-        end_date: present
-        highlights:
-          - Focus areas: structural econometrics, macroeconomics, and computational methods.
+  research_interests:
+    - field: Computational Macroeconomics
+      keywords: Heterogeneous-agent life-cycle models, housing & mortgage markets, multi-asset portfolio choice
+    - field: Structural Econometrics
+      keywords: Dynamic programming, state-space discretization, numerical estimation & inference bias
+    - field: High-Performance Computing
+      keywords: Parallel computing (Fortran/OpenMP), numerical optimization, high-dimensional state space models
 
-    Experience:
-      - company: Georgetown University
-        position: Researcher
-        location: Washington, DC
-        start_date: 2020
-        end_date: present
-        highlights:
-          - Built and estimated dynamic heterogeneous-agent models for policy analysis.
-          - Developed scalable numerical workflows for simulation and estimation.
+  education:
+    - institution: Georgetown University
+      degree: Ph.D. in Economics
+      location: Washington, DC
+      period: 2022 – Present
+      advisors: Mark Huggett, Ivana Komunjer
+    - institution: New York University (NYU)
+      degree: M.A. in Economics
+      location: New York, NY
+      period: 2020 – 2022
+    - institution: Higher School of Economics (HSE)
+      degree: M.S. in Financial Economics | B.A. in Economics
+      location: Moscow, Russia
+      period: 2015 – 2020
 
-    Research Interests:
-      - name: Structural Econometrics
-        keywords: Dynamic discrete choice, model estimation, identification
-      - name: Macroeconomics
-        keywords: Heterogeneous-agent models, housing and mortgage markets
-      - name: Computation
-        keywords: Numerical optimization, large-scale simulation, performance engineering
+  technical_toolkit:
+    - category: Computational Methods & Languages
+      skills: Fortran, OpenMP, Parallel Computing (HPC), MatLab, Python, R, STATA, Git
+    - category: Data Integration & Microeconometrics
+      skills: HMDA, PSID longitudinal panel, Zillow/Redfin housing data, FHFA price indexes
