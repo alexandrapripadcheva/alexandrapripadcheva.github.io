@@ -9,10 +9,12 @@ nav_order: 2
 ## Working Papers
 
 **"The Death of the Housing Ladder"**
+
 *Draft*  
 [[PDF](/assets/pdf/working_paper_1.pdf)] 
 
 **"The Impact of Discretization on Estimation and Inference of Structural Models"** (with prof. I.Komunjer)
+
 *Draft*  
 [[PDF](/assets/pdf/working_paper_2.pdf)] 
 
