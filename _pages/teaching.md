@@ -2,7 +2,7 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description: Teaching history.
+description:
 nav: true
 nav_order: 3
 ---
