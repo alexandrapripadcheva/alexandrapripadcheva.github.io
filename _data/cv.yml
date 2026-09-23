@@ -1,3 +1,10 @@
+cv:
+  name: Alexandra Pripadcheva
+  label: PhD Candidate in Economics | Georgetown University
+  email: ap1863@georgetown.edu
+  location: Washington, DC
+  pdf_cv_link: "/assets/pdf/cv_pdf.pdf"
+
   social_networks:
     - network: LinkedIn
       username: alexandra-pripadcheva
@@ -5,44 +12,42 @@
     - network: GitHub
       username: alexandrapripadcheva
       url: https://github.com/alexandrapripadcheva
-  sections:
-  CV:
-  name: Alexandra Pripadcheva
-  label: PhD Candidate in Economics | Georgetown University
-  email: ap1863@georgetown.edu
-  location: Washington, DC
-  pdf_cv_link: "/assets/pdf/cv_pdf.pdf"
 
-  Summary: >-
+  summary: >-
     My research combines high-performance numerical methods with 
     large-scale administrative and household microdata (HMDA, PSID, Zillow, Redfin, FHFA) to analyze 
     housing ladder frictions, mortgage markets disequilibrium, and wealth inequality.
-  
-  Research Interests:
-    - field: Computational Macroeconomics
-      keywords: Heterogeneous-agent life-cycle models, housing & mortgage markets, multi-asset portfolio choice
-    - field: Structural Econometrics
-      keywords: Dynamic programming, state-space discretization, numerical estimation & inference bias
-    - field: High-Performance Computing
-      keywords: Parallel computing (Fortran/OpenMP), numerical optimization, high-dimensional state space models
 
-  education:
-    - institution: Georgetown University
-      degree: Ph.D. in Economics
-      location: Washington, DC
-      period: 2022 – Present
-      advisors: Mark Huggett, Ivana Komunjer
-    - institution: New York University (NYU)
-      degree: M.A. in Economics
-      location: New York, NY
-      period: 2020 – 2022
-    - institution: Higher School of Economics (HSE)
-      degree: M.S. in Financial Economics | B.A. in Economics
-      location: Moscow, Russia
-      period: 2015 – 2020
+  sections:
+    Research Interests:
+      - label: Computational Macroeconomics
+        details: Heterogeneous-agent life-cycle models, housing & mortgage markets, multi-asset portfolio choice
+      - label: Structural Econometrics
+        details: Dynamic programming, state-space discretization, numerical estimation & inference bias
+      - label: High-Performance Computing
+        details: Parallel computing (Fortran/OpenMP), numerical optimization, high-dimensional state space models
 
-  technical_toolkit:
-    - category: Computational Methods & Languages
-      skills: Fortran, OpenMP, Parallel Computing (HPC), MatLab, Python, R, STATA, Git
-    - category: Data Integration & Microeconometrics
-      skills: HMDA, PSID longitudinal panel, Zillow/Redfin housing data, FHFA price indexes
+    Education:
+      - institution: Georgetown University
+        degree: Ph.D. in Economics
+        location: Washington, DC
+        start_date: 2022
+        end_date: present
+        highlights:
+          - "Advisors: Mark Huggett, Ivana Komunjer"
+      - institution: New York University (NYU)
+        degree: M.A. in Economics
+        location: New York, NY
+        start_date: 2020
+        end_date: 2022
+      - institution: Higher School of Economics (HSE)
+        degree: M.S. in Financial Economics | B.A. in Economics
+        location: Moscow, Russia
+        start_date: 2015
+        end_date: 2020
+
+    Technical Toolkit:
+      - label: Computational Methods & Languages
+        details: Fortran, OpenMP, Parallel Computing (HPC), MatLab, Python, R, STATA, Git
+      - label: Data Integration & Microeconometrics
+        details: HMDA, PSID longitudinal panel, Zillow/Redfin housing data, FHFA price indexes
