@@ -6,7 +6,7 @@ nav: true
 nav_order: 4
 cv_pdf: /assets/pdf/cv_pdf.pdf
 cv_format: rendercv
-description: Academic CV.
+description:
 toc:
   sidebar: left
 ---
