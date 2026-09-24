@@ -4,35 +4,65 @@ title: Research
 permalink: /research/
 nav: true
 nav_order: 2
+description: 
 ---
 
-## Working Papers
+<!-- Working Papers -->
+<h2 style="border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; margin-bottom: 1rem;">Working Papers</h2>
+{% for item in site.data.research.working_papers %}
+<div style="margin-bottom: 1.5rem;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <h3 style="margin: 0; font-size: 1.15rem; font-weight: 600;">
+      "{{ item.title }}"
+      {% if item.coauthors %}
+      <span style="font-size: 0.95rem; font-weight: normal; color: #555;">({{ item.coauthors }})</span>
+      {% endif %}
+    </h3>
+    {% if item.pdf %}
+    <span>
+      <a href="{{ item.pdf | relative_url }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; text-decoration: underline;">
+        [{{ item.status | default: 'Draft' }}]
+      </a>
+    </span>
+    {% endif %}
+  </div>
+</div>
+{% endfor %}
 
-**"The Death of the Housing Ladder"**
+<!-- Publications -->
+<h2 style="border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; margin-bottom: 1rem;">Publications</h2>
+{% for item in site.data.research.publications %}
+<div style="margin-bottom: 1.5rem;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <h3 style="margin: 0; font-size: 1.15rem; font-weight: 600;">
+      "{{ item.title }}"
+      {% if item.coauthors %}
+      <span style="font-size: 0.95rem; font-weight: normal; color: #555;">({{ item.coauthors }})</span>
+      {% endif %}
+    </h3>
+    <span style="font-style: italic; color: #666;">
+      {{ item.journal }}{% if item.year %}, {{ item.year }}{% endif %}
+    </span>
+  </div>
+  {% if item.url %}
+  <div style="margin-top: 0.2rem;">
+    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer" style="font-size: 0.9rem; text-decoration: underline;">
+      [Publisher Link]
+    </a>
+  </div>
+  {% endif %}
+</div>
+{% endfor %}
 
-*Draft*  
-[[PDF](/assets/pdf/working_paper_1.pdf)] 
-
-**"The Impact of Discretization on Estimation and Inference of Structural Models"** (with prof. I.Komunjer)
-
-*Draft*  
-[[PDF](/assets/pdf/working_paper_2.pdf)] 
-
----
-
-## Publications
-
-**"Social Mobility and Formation of Economic Barriers"** (with prof. D.Veselov)  
-*HSE Working Papers Series*, 2021.  
-[[Publisher Link](https://wp.hse.ru/data/2021/09/01/1416768457/250EC2021.pdf)]
-
-**"Newspaper Articles on Economics"** 
-*ECONS.ONLINE*, 2020.  
-[[Publisher Link](https://econs.online/authors/aleksandra-pripadcheva/)]
-
----
-
-## Work in Progress
-
-**"Housing Taxation and Endogenous Sorting on the Housing Market"** 
-*Housing assets experience place-specific shocks. A big part of a local shock is taxation. I show how the disparities in taxation can sort some households out of the most preferable location and hence, deliver housing market disequilibrium.*
+<!-- Work in Progress -->
+<h2 style="border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; margin-bottom: 1rem;">Work in Progress</h2>
+{% for item in site.data.research.work_in_progress %}
+<div style="margin-bottom: 1.5rem;">
+  <h3 style="margin: 0 0 0.4rem 0; font-size: 1.15rem; font-weight: 600;">"{{ item.title }}"</h3>
+  {% if item.abstract %}
+  <p style="margin: 0; font-style: italic; color: #444; line-height: 1.5;">
+    {{ item.abstract }}
+  </p>
+  {% endif %}
+</div>
+{% endfor %}
