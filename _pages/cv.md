@@ -13,7 +13,9 @@ description:
   </a>
 </div>
 
-<div style="margin-bottom: 2.5rem; font-size: 1.1rem; line-height: 1.6;">
+<!-- Summary -->
+<h2 style="border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; margin-bottom: 1rem;">Summary</h2>
+<div style="margin-bottom: 2rem; font-size: 1.1rem; line-height: 1.6;">
   {{ site.data.cv.cv.summary }}
 </div>
 
