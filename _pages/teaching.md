@@ -11,8 +11,8 @@ nav_order: 3
 
 ### Teaching Assistant
 
-* **Inter Macro** *(Prof. Huggett)* – Spring 2024, Fall 2024
-* **Inter Macro** *(Prof. Reischer)* – Fall 2023, Spring 2025
+* **Intermediate Macro** *(Prof. Huggett)* – Spring 2024, Fall 2024
+* **Intermediate Macro** *(Prof. Reischer)* – Fall 2023, Spring 2025
 * **Econ Principles Macro** *(Prof. Bae)* – Fall 2025, Spring-Fall 2026
 
 
