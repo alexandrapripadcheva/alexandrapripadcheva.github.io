@@ -12,7 +12,7 @@ description:
 {% for item in site.data.research.working_papers %}
 <div style="margin-bottom: 1.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline;">
-    <h3 style="margin: 0; font-size: 1.15rem; font-weight: 600;">
+    <h3 style="margin: 0; font-size: 1.15rem; font-weight: normal;">
       "{{ item.title }}"
       {% if item.coauthors %}
       <span style="font-size: 0.95rem; font-weight: normal; color: #555;">({{ item.coauthors }})</span>
@@ -34,7 +34,7 @@ description:
 {% for item in site.data.research.publications %}
 <div style="margin-bottom: 1.5rem;">
   <div style="display: flex; justify-content: space-between; align-items: baseline;">
-    <h3 style="margin: 0; font-size: 1.15rem; font-weight: 600;">
+    <h3 style="margin: 0; font-size: 1.15rem; font-weight: normal;">
       "{{ item.title }}"
       {% if item.coauthors %}
       <span style="font-size: 0.95rem; font-weight: normal; color: #555;">({{ item.coauthors }})</span>
@@ -58,7 +58,7 @@ description:
 <h2 style="border-bottom: 1px solid #ddd; padding-bottom: 0.3rem; margin-bottom: 1rem;">Work in Progress</h2>
 {% for item in site.data.research.work_in_progress %}
 <div style="margin-bottom: 1.5rem;">
-  <h3 style="margin: 0 0 0.4rem 0; font-size: 1.15rem; font-weight: 600;">"{{ item.title }}"</h3>
+  <h3 style="margin: 0 0 0.4rem 0; font-size: 1.15rem; font-weight: normal;">"{{ item.title }}"</h3>
   {% if item.abstract %}
   <p style="margin: 0; font-style: italic; color: #444; line-height: 1.5;">
     {{ item.abstract }}
