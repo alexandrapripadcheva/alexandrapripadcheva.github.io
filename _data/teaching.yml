@@ -1,0 +1,26 @@
+teaching:
+  - institution: Georgetown University
+    location: Washington, DC
+    roles:
+      - title: Teaching Assistant
+        start_date: 2023
+        end_date: 2026
+        courses:
+          - "Econ Principles Macro (Prof. Bae) – Fall 2025, Spring-Fall 2026"
+          - "Intermediate Macro (Prof. Reischer) – Fall 2023, Spring 2025"
+          - "Intermediate Macro (Prof. Huggett) – Spring 2024, Fall 2024"
+
+  - institution: Higher School of Economics
+    location: Moscow, Russia
+    roles:
+      - title: Lecturer
+        start_date: 2019
+        end_date: 2020
+        courses:
+          - "Game Theory – Fall 2019, Spring 2020"
+          - "Macroeconomics-1 – Fall 2019, Spring 2020"
+      - title: Teaching Assistant
+        start_date: 2016
+        end_date: 2019
+        courses:
+          - "Intermediate Macroeconomics, Intermediate Microeconomics, Game Theory – Fall 2016, Spring-Fall 2017, Spring-Fall 2018, Spring 2019"
