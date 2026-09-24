@@ -1,0 +1,25 @@
+working_papers:
+  - title: "The Death of the Housing Ladder"
+    status: "Draft"
+    pdf: "/assets/pdf/working_paper_1.pdf"
+
+  - title: "The Impact of Discretization on Estimation and Inference of Structural Models"
+    coauthors: "with Prof. I. Komunjer"
+    status: "Draft"
+    pdf: "/assets/pdf/working_paper_2.pdf"
+
+publications:
+  - title: "Social Mobility and Formation of Economic Barriers"
+    coauthors: "with Prof. D. Veselov"
+    journal: "HSE Working Papers Series"
+    year: "2021"
+    url: "https://wp.hse.ru/data/2021/09/01/1416768457/250EC2021.pdf"
+
+  - title: "Newspaper Articles on Economics"
+    journal: "ECONS.ONLINE"
+    year: "2020"
+    url: "https://econs.online/authors/aleksandra-pripadcheva/"
+
+work_in_progress:
+  - title: "Housing Taxation and Endogenous Sorting on the Housing Market"
+    abstract: "Housing assets experience place-specific shocks. A big part of a local shock is taxation. I show how the disparities in taxation can sort some households out of the most preferable location and hence, deliver housing market disequilibrium."
