@@ -5,14 +5,6 @@ cv:
   location: Washington, DC
   pdf_cv_link: "/assets/pdf/cv_pdf.pdf"
 
-  social_networks:
-    - network: LinkedIn
-      username: alexandra-pripadcheva
-      url: https://www.linkedin.com/in/alexandra-pripadcheva
-    - network: GitHub
-      username: alexandrapripadcheva
-      url: https://github.com/alexandrapripadcheva
-
   summary: >-
     My research combines high-performance numerical methods with 
     large-scale administrative and household microdata (HMDA, PSID, Zillow, Redfin, FHFA) to analyze 
@@ -50,4 +42,4 @@ cv:
       - label: Computational Methods & Languages
         details: Fortran, OpenMP, Parallel Computing (HPC), MatLab, Python, R, STATA, Git
       - label: Data Integration & Microeconometrics
-        details: HMDA, PSID longitudinal panel, Zillow/Redfin housing data, FHFA price indexes
+        details: HMDA, PSID longitudinal panel, Zillow/Redfin housing data, FHFA price indexesng data, FHFA price indexes
