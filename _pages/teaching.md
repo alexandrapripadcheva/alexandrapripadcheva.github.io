@@ -2,28 +2,30 @@
 layout: page
 title: Teaching
 permalink: /teaching/
-description:
+description: 
 nav: true
 nav_order: 3
 ---
 
-## Georgetown University
-
-### Teaching Assistant
-
-* **Intermediate Macro** *(Prof. Huggett)* – Spring 2024, Fall 2024
-* **Intermediate Macro** *(Prof. Reischer)* – Fall 2023, Spring 2025
-* **Econ Principles Macro** *(Prof. Bae)* – Fall 2025, Spring-Fall 2026
-
-
----
-## Higher School of Economics
-
-## Lecturer
-
-* **Game Theory** - Fall 2019, Spring 2020
-* **Macroeconomics-1** - Fall 2019, Spring 2020
-
-### Teaching Assistant
-
-* **Intermediate Macroeconomics**, **Intermediate Microeconomics**, **Game Theory** - Fall 2016, Spring-Fall 2017, Spring-Fall 2018, Spring 2019
+{% for item in site.data.teaching.teaching %}
+<div class="cv-item" style="margin-bottom: 2rem;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <h3 style="margin: 0;">{{ item.institution }}</h3>
+    <span style="font-style: italic; color: #666;">{{ item.location }}</span>
+  </div>
+  
+  {% for role in item.roles %}
+  <div style="margin-top: 0.75rem;">
+    <div style="display: flex; justify-content: space-between; font-weight: 600;">
+      <span>{{ role.title }}</span>
+      <span>{{ role.start_date }} – {{ role.end_date }}</span>
+    </div>
+    <ul style="margin-top: 0.4rem; margin-bottom: 0.8rem;">
+      {% for course in role.courses %}
+      <li>{{ course }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+{% endfor %}
