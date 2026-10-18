@@ -15,7 +15,7 @@ cv:
       - label: Computational Macroeconomics
         details: Heterogeneous-agent life-cycle models, housing & mortgage markets, multi-asset portfolio choice
       - label: Structural Econometrics
-        details: Dynamic programming, state-space discretization, numerical estimation & inference bias
+        details: Dynamic programming, state-space discretization, Monte-Carlo simulatons, numerical estimation & inference bias
       - label: High-Performance Computing
         details: Parallel computing (Fortran/OpenMP), numerical optimization, high-dimensional state space models
 
@@ -42,4 +42,4 @@ cv:
       - label: Computational Methods & Languages
         details: Fortran, OpenMP, Parallel Computing (HPC), MatLab, Python, R, STATA, Git
       - label: Data Integration & Microeconometrics
-        details: HMDA, PSID longitudinal panel, Zillow/Redfin housing data, FHFA price indexesng data, FHFA price indexes
+        details: HMDA, PSID longitudinal panel, Zillow/Redfin housing data, FHFA price indexes
