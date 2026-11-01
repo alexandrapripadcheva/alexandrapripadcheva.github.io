@@ -1,12 +1,12 @@
 working_papers:
-  - title: "The Death of the Housing Ladder"
+  - title: "Reassessing the Housing Ladder: Evidence from Age Patterns, Heterogeneous Returns and Housing Purchase Behavior"
     status: "Draft"
-    pdf: "/assets/pdf/working_paper_1.pdf"
+    pdf: "/assets/pdf/Age_effects_draft.pdf"
 
   - title: "The Impact of Discretization on Estimation and Inference of Structural Models"
     coauthors: "with Prof. I. Komunjer"
-    status: "Draft"
-    pdf: "/assets/pdf/working_paper_2.pdf"
+    status: "Proposal"
+    pdf: "/assets/pdf/Discrete_research_proposal.pdf"
 
 publications:
   - title: "Social Mobility and Formation of Economic Barriers"
@@ -21,5 +21,5 @@ publications:
     url: "https://econs.online/authors/aleksandra-pripadcheva/"
 
 work_in_progress:
-  - title: "Housing Taxation and Endogenous Sorting on the Housing Market"
-    abstract: "Housing assets experience place-specific shocks. A big part of a local shock is taxation. I show how the disparities in taxation can sort some households out of the most preferable location and hence, deliver housing market disequilibrium."
+  - title: "General Equilibrium of the Segmented Housing Market"
+    abstract: "While housing markets are known to be segmented, existing literature mostly examines this segmentation through either isolated demand-side or supply-side frameworks. These frameworks obscure the complex effects on equilibrium prices and aggregate outcomes. To bridge this gap, I develop a general equilibrium model of a segmented housing market that integrates both demand and supply dynamics. This framework demonstrates how these dual forces either amplify or dampen one another. Specifically, the model evaluates the simultaneous propagation of monetary and fiscal policies across market segments, revealing their aggregate macroeconomic effects and distinct transmission channels."
