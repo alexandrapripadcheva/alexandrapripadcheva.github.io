@@ -13,11 +13,11 @@ cv:
   sections:
     Research Interests:
       - label: Computational Macroeconomics
-        details: Heterogeneous-agent life-cycle models, housing & mortgage markets, multi-asset portfolio choice
+        details: Heterogeneous-agent life-cycle models, dynamic programming, housing, mortgage & debt markets, multi-asset portfolio choice
       - label: Structural Econometrics
-        details: Dynamic programming, state-space discretization, Monte-Carlo simulatons, numerical estimation & inference bias
+        details: Micro-econometric modeling, structural parameter estimation, Monte-Carlo methods, asymptotic inference, numerical estimation & inference bias
       - label: High-Performance Computing
-        details: Parallel computing (Fortran/OpenMP), numerical optimization, high-dimensional state space models
+        details: Parallel computing (Fortran/OpenMP), numerical optimization, high-dimensional state space solvers
 
     Education:
       - institution: Georgetown University
