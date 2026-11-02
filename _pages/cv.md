@@ -8,7 +8,7 @@ description:
 ---
 
 <div style="margin-bottom: 2rem; text-align: right;">
-  <a href="{{ site.data.cv.cv.pdf_cv_link | relative_url }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; text-decoration: underline;">
+  <a href="{{ site.data.cv.cv.pdf_cv_link | relative_url }}?v={{ site.time | date: '%s' }}" target="_blank" rel="noopener noreferrer" style="font-weight: 600; text-decoration: underline;">
     [Download PDF]
   </a>
 </div>
